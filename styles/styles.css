@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 1.5;
-    color: #2C2C2C;
+    color: #2C2C2C
 }
 
 ul, ol {
@@ -54,3 +54,21 @@ font-weight: 500;
   | 
   |============================
 */
+
+
+
+.hero {
+    background: #FEFEFE;
+    max-width: 502px;
+}
+.hero-title {
+font-size: 48px;
+font-weight: 700;
+line-height: 1.2;
+}
+.hero-text {
+line-height: 1.5;
+font-size: 16px;
+}
+.nav-button {
+}
