@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #2C2C2C;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/**
+  |============================
+  | Navigation
+  |============================
+*/
+
+.navigation {
+}
+
+.nav-list {
+}
+
+.nav-list-item {
+}
+
+.nav-link {
+    
+    font-weight: 700;
+    color: inherit;
+}
+
+.active {
+color: #BBF330;
+text-decoration: underline;
+}
+
+
+
+.nav-button {
+    font-family: inherit;
+border-radius: 30px;
+background: var(--Button-green, #BBF330);
+border: none;
+font-size: 13px;
+font-weight: 500;
+}
+/**
+  |============================
+  | 
+  |============================
+*/
