@@ -7,10 +7,20 @@ body {
 
 ul, ol {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 a {
     text-decoration: none;
+}
+img{
+    display: block;
+}
+.container{
+    width: 1280px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /**
@@ -18,11 +28,22 @@ a {
   | Navigation
   |============================
 */
+.cont-header{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: inline-flex;
+    width: 66px;
 
+}
 .navigation {
+    margin-left: auto;
 }
 
 .nav-list {
+    display: flex;
+    gap: 28px;
 }
 
 .nav-list-item {
@@ -48,6 +69,8 @@ background: var(--Button-green, #BBF330);
 border: none;
 font-size: 13px;
 font-weight: 500;
+margin-left: 30px;
+padding: 6px 18px;
 }
 /**
   |============================
