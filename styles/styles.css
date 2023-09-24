@@ -4,11 +4,15 @@ body {
     line-height: 1.5;
     color: #2C2C2C
 }
-
+h1, h2, h3, h4, p   {
+margin-top: 0;
+margin-bottom: 0;
+}
 ul, ol {
     list-style: none;
     margin-top: 0;
     margin-bottom: 0;
+    padding-left: 0;
 }
 
 a {
@@ -94,4 +98,78 @@ line-height: 1.5;
 font-size: 16px;
 }
 .nav-button {
+}
+.offers {
+background: #FEFEFE;
+}
+.offers-container {
+display: flex;
+align-items: flex-end;
+
+
+}
+.offers-img {
+display: flex;    
+flex-shrink: 0;
+max-height: 502px;
+margin-right: 90px; 
+border-radius: 550px;
+border: 5px solid rgba(255, 255, 255, 0.50);
+margin-bottom: 145px;
+}
+.offers-text {
+max-width: 573px;
+
+}
+.offers-title {
+max-width: 526px;
+font-size: 42px;
+font-weight: 700;
+line-height: 1.2;
+margin-bottom: 20px;
+}
+
+.offers-descr {
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+max-width: 500px;
+margin-bottom: 48px;
+
+}
+
+.offers-list {
+display: flex;
+gap: 67px;
+margin-bottom: 42px;
+
+}
+
+.offers-item {
+width: calc((100% - 67px) / 2);
+}
+
+.offers-item-name {
+font-size: 18px;
+font-weight: 700;
+line-height: 1.4;
+}
+
+.offers-item-descr {
+font-weight: 400;
+line-height: 1.5; 
+}
+
+.offers-button {
+font-size: 13px;
+font-weight: 500;
+line-height: 1.5;
+border-radius: 30px;
+border: 2px solid #7EB101;
+background: #FFF;
+display: inline-flex;
+padding: 10px 22px;
+justify-content: center;
+align-items: center;
+margin-bottom: 79px;
 }
